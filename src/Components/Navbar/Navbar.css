@@ -1,24 +1,24 @@
 #navbar {
     display: flex;
-    justify-content: space-between;
-    padding: .5rem;
+    flex-direction: column;
+    padding: .25rem;
     font-size: 1.5rem;
     position: sticky;
     background-color: rgb(244, 216, 242);
 }
 #nav-links {
-    display: flex;
-    flex-direction: row;
     size: 1rem;
     font-size: 2rem;
     font-weight: bold;
-    width: 25%;
-    margin-top: 1.75rem;
+  }
+  #nav-title {
+      display: flex;
+      justify-content: center;
   }
   #nav-box{
     display: flex;
-    justify-content: space-around;
-    padding-top: 1rem;
+    justify-content: center;
+    padding-bottom: 1rem;
   }
   span > a{
     text-decoration: none;
@@ -27,4 +27,12 @@
   }
   a:hover{
     color: whitesmoke;
+  }
+  #nav-pic{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1rem;
+  }
+  img{
+      border-radius: 50%;
   }

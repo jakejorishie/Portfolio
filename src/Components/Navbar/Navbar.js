@@ -8,6 +8,12 @@ function Navbar() {
         <div id="nav-title">
         <h1 id ="nav-title">Jacob Jorishie Portfolio</h1>
         </div>
+        <div id="nav-pic">
+        <img 
+          src={require("./1676915531254.jpeg")} 
+          alt="logo" 
+        />
+    </div>
         <div>
         <div id="nav-links">
           <div id="nav-box">
