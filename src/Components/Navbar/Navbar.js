@@ -4,17 +4,25 @@ import './Navbar.css';
 
 function Navbar() {
   return (
-    <div className="App">
-      <header>
+    <div id="navbar">
         <div id="nav-title">
-        <h1>Jacob Jorishie Portfolio</h1>
+        <h1 id ="nav-title">Jacob Jorishie Portfolio</h1>
         </div>
+        <div>
         <div id="nav-links">
+          <div id="nav-box">
           <span>
             <Link to ="/home">Home</Link>
           </span>
+          <span>
+          <Link to="/projects">Projects</Link>
+          </span>
+          <span>
+            <Link to="/resume">Resume</Link>
+            </span>
+            </div>
+            </div>
         </div>
-      </header>
     </div>
   );
 }

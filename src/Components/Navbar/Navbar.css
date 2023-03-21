@@ -1,0 +1,30 @@
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: .5rem;
+    font-size: 1.5rem;
+    position: sticky;
+    background-color: rgb(244, 216, 242);
+}
+#nav-links {
+    display: flex;
+    flex-direction: row;
+    size: 1rem;
+    font-size: 2rem;
+    font-weight: bold;
+    width: 25%;
+    margin-top: 1.75rem;
+  }
+  #nav-box{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 1rem;
+  }
+  span > a{
+    text-decoration: none;
+    color: black;
+    margin-right: 25px;
+  }
+  a:hover{
+    color: whitesmoke;
+  }
