@@ -1,0 +1,17 @@
+#git-img {
+    width: 30px;
+    height: 30px;
+}
+#linkedin-img {
+    width: 30px;
+    height: 30px;
+}
+#footer {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+    padding-bottom: .5rem;
+}

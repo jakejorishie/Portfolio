@@ -10,6 +10,7 @@ function Navbar() {
         </div>
         <div id="nav-pic">
         <img 
+          id="nav-img"
           src={require("./1676915531254.jpeg")} 
           alt="logo" 
         />

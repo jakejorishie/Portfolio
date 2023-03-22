@@ -4,6 +4,7 @@ import Navbar from './Components/Navbar/Navbar';
 import Home from './Components/Home/Home';
 import Projects from './Components/Projects/Projects';
 import Resume from './Components/Resume/Resume';
+import Footer from './Components/Footer/Footer';
 import './App.css';
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
         element={<Resume />}>
         </Route>
       </Routes>
+      <Footer />
     </div>
   );
 }
