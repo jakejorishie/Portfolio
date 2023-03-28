@@ -15,14 +15,12 @@ function Navbar() {
           alt="logo" 
         />
     </div>
+    <h3 id="stats">REACT | Javascript | CSS | SQL | HTML</h3>
         <div>
         <div id="nav-links">
           <div id="nav-box">
           <span>
-            <Link to ="/home">Home</Link>
-          </span>
-          <span>
-          <Link to="/projects">Projects</Link>
+          <Link to="/">Projects</Link>
           </span>
           <span>
             <Link to="/resume">Resume</Link>

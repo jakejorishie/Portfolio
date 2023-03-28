@@ -4,7 +4,8 @@
     padding: .25rem;
     font-size: 1.5rem;
     position: sticky;
-    background-color: rgb(244, 216, 242);
+    background-color: rgb(246, 236, 245);
+    border-bottom: solid 3px;
 }
 #nav-links {
     size: 1rem;
@@ -35,4 +36,8 @@
   }
   #nav-img{
       border-radius: 50%;
+  }
+  #stats {
+      display: flex;
+      justify-content: center;
   }
