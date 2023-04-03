@@ -1,10 +1,15 @@
+  @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap');
+
+  * {
+    font-family: 'Lato', sans-serif;
+  }
 #navbar {
     display: flex;
     flex-direction: column;
     padding: .25rem;
     font-size: 1.5rem;
     position: sticky;
-    background-color: rgb(246, 236, 245);
+    background-color: rgb(194, 234, 184);
     border-bottom: solid 3px;
 }
 #nav-links {
@@ -15,6 +20,7 @@
   #nav-title {
       display: flex;
       justify-content: center;
+      font-weight: bolder;
   }
   #nav-box{
     display: flex;
@@ -27,7 +33,8 @@
     margin-right: 25px;
   }
   a:hover{
-    color: whitesmoke;
+    color: rgb(113, 198, 28);
+    zoom: 105%;
   }
   #nav-pic{
     display: flex;

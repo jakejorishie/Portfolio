@@ -1,13 +1,19 @@
 import React from "react";
 import './Resume.css';
+import "./jjresume1024_1.jpg"
 
 function Resume() {
   return (
-    <div>
+    <div id="resume">
       <header>
-        <div id="resume-title">
-        <h1>Resume</h1>
-        </div>
+      <h1 id="resume-title">Resume</h1>
+      <div id="resume-pic">
+        <img 
+          id="resume-img"
+          src={require("./jjresume1024_1.jpg")} 
+          alt="logo" 
+        />
+    </div>
       </header>
     </div>
   );

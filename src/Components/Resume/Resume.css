@@ -1,0 +1,22 @@
+#resume-img {
+    display: flex;
+    justify-content: center;
+    resize: both;
+    overflow: auto;
+}
+#resume-pic {
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background-color: rgb(194, 234, 184);
+    border: solid black 3px;
+}
+#resume-title{
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+}
+#resume {
+    background-color: mintcream;
+}

@@ -7,11 +7,12 @@
     height: 30px;
 }
 #footer {
-    background-color: white;
+    background-color: mintcream;
     display: flex;
     justify-content: center;
-    position: sticky;
+    position: fixed;
     bottom: 0;
     width: 100%;
     padding-bottom: .5rem;
+    border: solid black 3px;
 }
